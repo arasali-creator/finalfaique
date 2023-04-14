@@ -91,8 +91,6 @@ input {
     border: none
 }
 
-
-
 @font-face {
     font-family: Montserrat;
     font-style: normal;
@@ -1225,7 +1223,7 @@ a.main-btn {
     -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
-    margin: 0 0 130px;
+    margin: 0 0 13px;
     font-size: 40px;
     font-weight: 600;
     line-height: 49px;
@@ -1480,10 +1478,11 @@ a.main-btn {
 .advisors .card-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
+    flex-wrap: wrap;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
